@@ -5,7 +5,6 @@ public class Main {
 
         Utils utils = new Utils();
         Employee emp = new Employee();
-        emp.setBaseSalary(10000);
 
         Worker worker1 = new Worker("Oleg", "Ivanov");
 
