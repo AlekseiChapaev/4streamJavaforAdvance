@@ -1,6 +1,6 @@
 package hw_9_2_2;
 
-public class Manager extends Employee{
+public final class Manager extends BaseEmployee{
 
     private int numberOfSubordinates;
 

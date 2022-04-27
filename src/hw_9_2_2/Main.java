@@ -25,6 +25,5 @@ public class Main {
         System.out.println(employee1.getSalary(year));
         System.out.println(employee2.getSalary(year));
         System.out.println(manager.getSalary(year));
-
     }
 }
