@@ -23,7 +23,7 @@ public class Main {
         director.setNumberOfSubordinates(5);
 
         Employee[] arrayEmployees = {worker1, worker2, worker3, manager1, manager2, director};
-        Manager[] managers = {manager1, manager2, director};
+        Manager[] managers = {manager1, manager2};
 
         System.out.println(Helpers.findEmployeeByName(workers, "Anna"));
         System.out.println(Helpers.findEmployeeByPartName(arrayEmployees, "lex"));

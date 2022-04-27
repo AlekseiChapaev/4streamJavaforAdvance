@@ -38,6 +38,7 @@ public class Helpers {
                 min = arr[i].getSalary();
             }
         }
+
         return min;
     }
 
@@ -48,6 +49,7 @@ public class Helpers {
                 max = arr[i].getSalary();
             }
         }
+
         return max;
     }
 
@@ -58,6 +60,7 @@ public class Helpers {
                 min = arr[i].getNumberOfSubordinates();
             }
         }
+
         return min;
     }
 
@@ -68,6 +71,7 @@ public class Helpers {
                 max = arr[i].getNumberOfSubordinates();
             }
         }
+
         return max;
     }
 
@@ -77,7 +81,9 @@ public class Helpers {
             if(maxBonus < arr[i].getSalary() - arr[i].getBaseSalary()){
                 maxBonus = arr[i].getSalary() - arr[i].getBaseSalary();
             }
-        }return maxBonus;
+        }
+
+        return maxBonus;
     }
 
     public static int getMinBonus(Manager[] arr){
@@ -86,6 +92,8 @@ public class Helpers {
             if(minBonus > arr[i].getSalary() - arr[i].getBaseSalary()){
                 minBonus = arr[i].getSalary() - arr[i].getBaseSalary();
             }
-        }return minBonus;
+        }
+
+        return minBonus;
     }
 }

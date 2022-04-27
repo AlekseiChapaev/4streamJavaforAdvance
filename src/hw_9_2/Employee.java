@@ -1,6 +1,6 @@
 package hw_9_2;
 
-public class Employee {
+public abstract class Employee {
 
     private int baseSalary = 10000;
     private String name;
@@ -22,7 +22,5 @@ public class Employee {
         this.name = name;
     }
 
-    public int getSalary() {
-        return salary;
-    }
+    public abstract int getSalary();
 }

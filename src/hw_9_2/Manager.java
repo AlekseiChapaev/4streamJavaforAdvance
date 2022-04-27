@@ -1,18 +1,20 @@
 package hw_9_2;
 
-public class Manager extends Worker{
+public final class Manager extends Worker{
 
-    private int NumberOfSubordinates;
+    private int numberOfSubordinates;
+    private static final int INDEX = 3;
 
     public int getNumberOfSubordinates() {
-        return NumberOfSubordinates;
+        return numberOfSubordinates;
     }
 
     public void setNumberOfSubordinates(int numberOfSubordinates) {
-        NumberOfSubordinates = numberOfSubordinates;
+        this.numberOfSubordinates = numberOfSubordinates;
     }
 
+    @Override
     public int getSalary() {
-        return getBaseSalary() + getBaseSalary() /100 * 3;
+        return super.getSalary() + super.getSalary() * numberOfSubordinates / 100 * INDEX;
     }
 }
