@@ -1,9 +1,9 @@
-package hw_9_2;
+package hw_9_2_1;
 
-public final class Manager extends Worker{
+public final class Director extends Worker{
 
     private int numberOfSubordinates;
-    private static final int INDEX = 3;
+    private static final int INDEX = 9;
 
     public int getNumberOfSubordinates() {
         return numberOfSubordinates;
@@ -13,7 +13,6 @@ public final class Manager extends Worker{
         this.numberOfSubordinates = numberOfSubordinates;
     }
 
-    @Override
     public int getSalary() {
         return super.getSalary() + super.getSalary() * numberOfSubordinates / 100 * INDEX;
     }
