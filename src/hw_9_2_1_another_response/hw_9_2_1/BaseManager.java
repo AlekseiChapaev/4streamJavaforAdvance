@@ -13,7 +13,7 @@ public abstract class BaseManager extends Worker {
         this.numberOfSubordinates = numberOfSubordinates;
     }
 
-    public abstract int getIndex();
+    protected abstract int getIndex();
 
     @Override
     public int getSalary() {

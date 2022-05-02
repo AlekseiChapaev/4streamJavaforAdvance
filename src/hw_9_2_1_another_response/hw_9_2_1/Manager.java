@@ -5,7 +5,7 @@ public final class Manager extends BaseManager {
     private static final int INDEX = 3;
 
     @Override
-    public int getIndex() {
+    protected int getIndex() {
         return INDEX;
     }
 }

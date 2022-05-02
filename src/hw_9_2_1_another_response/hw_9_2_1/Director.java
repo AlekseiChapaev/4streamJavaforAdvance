@@ -5,7 +5,7 @@ public final class Director extends BaseManager {
     private static final int INDEX = 9;
 
     @Override
-    public int getIndex() {
+    protected int getIndex() {
         return INDEX;
     }
 }

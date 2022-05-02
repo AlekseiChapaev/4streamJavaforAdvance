@@ -21,6 +21,4 @@ public class MonthsUtils {
     final static Month[] secondQuarter = new Month[]{April, May, June};
     final static Month[] thirdQuarter = new Month[]{July, August, September};
     final static Month[] fourQuarter = new Month[]{October, November, December};
-
-
 }
